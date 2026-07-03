@@ -136,6 +136,43 @@ Uniformly distributed random signal:-     x(n)∼U(−0.5,0.5)
 
 <img width="500" height="377" alt="image" src="https://github.com/user-attachments/assets/72cb7a90-139b-4fbc-bc9e-c802354efca5" />
 
+### Key Observations
+
+AP-FLANN converges faster than NLMS-FLANN due to multiple input vector updates.
+
+DAP-FLANN achieves nearly the same convergence while requiring lower computational complexity.
+
+FLANN successfully models nonlinear system characteristics through functional expansion.
+
+
+---------------------------------------------- 
+
+### 5. AEFLN-Based Nonlinear System Identification
+This figure evaluates the performance of Adaptive Exponential Functional Link Neural Network (AEFLN) integrated with adaptive filtering algorithms for nonlinear system identification.
+Unlike FLANN, AEFLN incorporates adaptive exponential basis functions that automatically adjust during learning, resulting in improved nonlinear approximation.
+
+
+<img width="500" height="377" alt="image" src="https://github.com/user-attachments/assets/98bcdf9c-2e1c-4b90-82b8-c47f4ae81d14" />
+
+
+### Key Observations
+AEFLN achieves faster convergence than FLANN.
+
+AP-AEFLN provides the fastest learning among the compared algorithms.
+
+DAP-AEFLN maintains AP-like convergence while reducing computational complexity.
+
+Adaptive exponential basis functions significantly improve nonlinear modeling accuracy and reduce the final Mean Square Error (MSE).
+
+
+
+
+
+
+
+
+
+
 
 
 
