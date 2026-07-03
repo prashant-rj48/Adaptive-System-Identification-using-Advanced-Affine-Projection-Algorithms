@@ -97,7 +97,7 @@ O-DAP further improves convergence using an optimal gain vector.
 
 SO-DAP provides performance close to O-DAP with lower computational cost.
 
-
+ ---------------------------------------------- 
 
 ### 2. Computational Complexity Comparison
 This figure compares the theoretical computational complexity of each adaptive filtering algorithm as the filter length increases. Complexity is measured in terms of the approximate number of arithmetic operations required per iteration.
@@ -113,7 +113,7 @@ O-DAP optimizes the update strategy while maintaining efficient computation.
 
 SO-DAP achieves the best balance between computational complexity and convergence performance.
 
-
+ ---------------------------------------------- 
 
 
 ### 3. Effect of Step Size (μ) on DAP
@@ -128,7 +128,7 @@ A large step size provides faster convergence but increases steady-state error a
 A moderate step size offers the best trade-off between convergence speed and estimation accuracy.
 
 
-| ---------------------------------------------- |
+ ---------------------------------------------- 
 
 ### 4. FLANN-Based Nonlinear System Identification
 This figure compares the performance of adaptive filtering algorithms for nonlinear system identification using a Trigonometric Functional Link Artificial Neural Network (FLANN). FLANN expands the input signal using trigonometric basis functions, enabling linear adaptive filters to model nonlinear systems.
