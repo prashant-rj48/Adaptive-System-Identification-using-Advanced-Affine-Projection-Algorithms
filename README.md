@@ -82,7 +82,7 @@ All simulations were performed in MATLAB under identical experimental conditions
 
 ### 1. Linear System Identification
 This figure compares the convergence performance of adaptive filtering algorithms for linear system identification using correlated autoregressive (AR) input signals. The performance is evaluated using Normalized Mean Square Deviation (NMSD) versus the number of iterations.
-Input Signal:-  <img width="1361" height="142" alt="image" src="https://github.com/user-attachments/assets/cd4ddbf1-36df-4fca-80e8-9cfac49cdf31" />
+Input Signal:-  <img width="136" height="14" alt="image" src="https://github.com/user-attachments/assets/cd4ddbf1-36df-4fca-80e8-9cfac49cdf31" />
 
 
 
