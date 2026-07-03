@@ -188,7 +188,16 @@ Improved nonlinear acoustic modeling using AEFLN
 
 
 
+### Acoustic Echo Cancellation (AEC)
+<img width="750" height="158" alt="image" src="https://github.com/user-attachments/assets/6d98c74c-7094-427f-8a71-bb62691dd088" />
+Acoustic Echo Cancellation removes unwanted echoes produced when a loudspeaker's output is captured by a nearby microphone during voice or video calls. Adaptive filters continuously estimate the acoustic path and subtract the estimated echo from the microphone signal. AP and DAP provide superior performance for correlated speech signals, while O-DAP improves tracking in dynamic environments. AEFLN enhances echo cancellation by modeling nonlinear loudspeaker characteristics that conventional linear filters cannot accurately represent.
 
+Key Contributions
+
+Clear voice communication.                                                                                                                                         
+Faster convergence in changing acoustic environments.                                                                                                              
+Reduced computational cost for embedded systems.                                                                                                                   
+Improved cancellation of nonlinear speaker distortion. 
 
 
 
