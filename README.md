@@ -216,7 +216,7 @@ Compensation of nonlinear hardware impairments.
 
 ***
 
-##📑 References
+## 📑 References
 
 AP/DAP/O-DAP/SO-DAP IEEE paper.                                                                                                                                    
 The FLANN paper.                                                                                                                                                   
