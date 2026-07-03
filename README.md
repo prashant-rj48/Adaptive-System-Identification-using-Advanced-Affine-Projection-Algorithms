@@ -1,4 +1,4 @@
-## Adaptive-System-Identification-using-Advanced-Affine-Projection-Algorithms
+# Adaptive-System-Identification-using-Advanced-Affine-Projection-Algorithms
 A MATLAB implementation and comparative study of low-complexity adaptive filtering techniques for linear and nonlinear system identification.
 ***
 ## 📖 About the Project
@@ -30,7 +30,43 @@ The computational cost of NLMS, AP, DAP, O-DAP, and SO-DAP is analyzed using the
 ### 5️⃣ AEFLN-Based Nonlinear Modeling
 The Adaptive Exponential Functional Link Neural Network (AEFLN) is employed to enhance nonlinear system identification. Compared to FLANN, AEFLN uses adaptive exponential basis functions, resulting in improved nonlinear approximation, faster convergence, and lower steady-state error.
 
+***
+## Evolution of Adaptive Filtering Algorithms
 
+                    SYSTEM IDENTIFICATION
+                            │
+            ┌───────────────┴────────────────┐
+            │                                │
+            ▼                                ▼
+  Linear System Identification      Nonlinear System Identification
+            │                                │
+            ▼                                ▼
+          NLMS                            FLANN
+            │                                │
+     Drawback: Slow convergence      Drawback: Fixed nonlinear basis
+     for correlated signals          functions
+            │                                │
+            ▼                                ▼
+           AP                             AEFLN
+            │
+     Drawback: Matrix inversion
+     (High computational complexity)
+            │
+            ▼
+           DAP
+            │
+     Drawback:
+     Fixed adaptation mechanism
+            │
+            ▼
+         O-DAP
+            │
+     Drawback:
+     Additional computation for
+     optimal gain vector
+            │
+            ▼
+         SO-DAP
 
 
 
