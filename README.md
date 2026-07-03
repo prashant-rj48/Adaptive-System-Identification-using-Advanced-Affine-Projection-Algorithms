@@ -86,6 +86,15 @@ Input Signal:-  <img width="450" height="47" alt="image" src="https://github.com
 
 <img width="500" height="377" alt="image" src="https://github.com/user-attachments/assets/5c3d09d7-a58f-48a1-97e7-4be6372a3484" />
 
+Key Observations
+NLMS converges slowly because it updates the filter using only the current input sample.
+AP converges significantly faster by utilizing multiple recent input vectors.
+DAP achieves nearly the same convergence performance as AP while reducing computational complexity.
+O-DAP further improves convergence using an optimal gain vector.
+SO-DAP provides performance close to O-DAP with lower computational cost.
+
+### 2. Computational Complexity Comparison
+This figure compares the theoretical computational complexity of each adaptive filtering algorithm as the filter length increases. Complexity is measured in terms of the approximate number of arithmetic operations required per iteration.
 
 
 
