@@ -120,9 +120,12 @@ SO-DAP achieves the best balance between computational complexity and convergenc
 This figure illustrates the influence of the adaptive step size (μ) on the convergence behavior of the DAP algorithm.
 <img width="1291" height="975" alt="image" src="https://github.com/user-attachments/assets/a13bfadf-fe31-48e5-840d-4acdd188b915" />
 ### Key Observations
-  A small step size results in stable but slow convergence.
-  A large step size provides faster convergence but increases steady-state error and may reduce stability.
-  A moderate step size offers the best trade-off between convergence speed and estimation accuracy.
+
+A small step size results in stable but slow convergence.
+
+A large step size provides faster convergence but increases steady-state error and may reduce stability.
+
+A moderate step size offers the best trade-off between convergence speed and estimation accuracy.
 
 
 
