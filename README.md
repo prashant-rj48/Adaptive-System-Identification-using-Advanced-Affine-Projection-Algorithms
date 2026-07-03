@@ -86,7 +86,7 @@ Input Signal:-  <img width="450" height="47" alt="image" src="https://github.com
 
 <img width="500" height="377" alt="image" src="https://github.com/user-attachments/assets/5c3d09d7-a58f-48a1-97e7-4be6372a3484" />
 
-Key Observations
+### Key Observations
 NLMS converges slowly because it updates the filter using only the current input sample.
 
 AP converges significantly faster by utilizing multiple recent input vectors.
@@ -98,9 +98,43 @@ O-DAP further improves convergence using an optimal gain vector.
 SO-DAP provides performance close to O-DAP with lower computational cost.
 
 
+
 ### 2. Computational Complexity Comparison
 This figure compares the theoretical computational complexity of each adaptive filtering algorithm as the filter length increases. Complexity is measured in terms of the approximate number of arithmetic operations required per iteration.
 <img width="500" height="377" alt="image" src="https://github.com/user-attachments/assets/fc7bea86-0e48-4c59-bf0c-07a76592c97a" />
+### Key Observations
+NLMS has the lowest computational complexity.
+
+AP has the highest complexity because of projection matrix inversion.
+
+DAP substantially reduces AP's computational burden.
+
+O-DAP optimizes the update strategy while maintaining efficient computation.
+
+SO-DAP achieves the best balance between computational complexity and convergence performance.
+
+
+
+
+### 3. Effect of Step Size (μ) on DAP
+This figure illustrates the influence of the adaptive step size (μ) on the convergence behavior of the DAP algorithm.
+<img width="1291" height="975" alt="image" src="https://github.com/user-attachments/assets/a13bfadf-fe31-48e5-840d-4acdd188b915" />
+### Key Observations
+
+A small step size results in stable but slow convergence.
+
+A large step size provides faster convergence but increases steady-state error and may reduce stability.
+
+A moderate step size offers the best trade-off between convergence speed and estimation accuracy.
+
+
+
+
+
+
+
+
+
 
 
 
