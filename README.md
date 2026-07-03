@@ -38,7 +38,8 @@ The Adaptive Exponential Functional Link Neural Network (AEFLN) is employed to e
             ┌───────────────┴────────────────┐
             │                                │
             ▼                                ▼
-  Linear System Identification      Nonlinear System Identification
+ 
+    Linear System Identification      Nonlinear System Identification
             │                                │
             ▼                                ▼
           NLMS                            FLANN
