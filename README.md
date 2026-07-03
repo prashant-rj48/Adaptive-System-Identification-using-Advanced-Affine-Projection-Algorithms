@@ -9,26 +9,20 @@ For linear systems, advanced Affine Projection-based algorithms are implemented 
 For nonlinear systems, the Adaptive Exponential Functional Link Neural Network (AEFLN) is integrated with adaptive filtering algorithms to model nonlinear behaviors more effectively than conventional linear filters.
 ***
 ## ✨ Key Features
-### 1️⃣Advanced Adaptive Filtering Algorithms
-This project implements a comprehensive suite of adaptive filtering algorithms, including NLMS, AP, DAP, O-DAP, SO-DAP, FLANN, and AEFLN, for both linear and nonlinear system identification. The algorithms are evaluated to understand their convergence characteristics, computational efficiency, and estimation accuracy.
+### 1️⃣Fast Convergence for Correlated Input Signals
+Conventional adaptive algorithms such as NLMS exhibit slow convergence when processing highly correlated input signals. This project implements Affine Projection (AP) and its advanced variants (DAP, O-DAP, and SO-DAP) to significantly improve convergence speed by utilizing multiple recent input vectors and optimized adaptation strategies. The MATLAB simulations demonstrate faster learning and improved steady-state performance under correlated signal conditions.
 
-### 2️⃣ Linear & Nonlinear System Identification
-The project investigates both linear and nonlinear system identification. Linear systems are modeled using conventional adaptive filters, while nonlinear systems are identified using AEFLN, enabling accurate modeling of complex real-world nonlinear behaviors such as loudspeaker saturation.
+### 2️⃣ Reduced Computational Complexity
+While the AP algorithm provides excellent convergence, its computational cost is high due to repeated matrix inversion. To overcome this limitation, DAP, O-DAP, and SO-DAP are implemented to progressively reduce computational complexity without sacrificing convergence performance. The project includes a detailed theoretical and graphical comparison of algorithm complexity, highlighting the trade-off between computational efficiency and estimation accuracy.
 
-### 3️⃣ Comprehensive Performance Evaluation
-A detailed comparative analysis is performed using multiple performance metrics, including:
-Convergence Speed
-Mean Square Error (MSE)
-Normalized Mean Square Deviation (NMSD)
-Steady-State Error
-Learning Curves
-This provides a clear understanding of the strengths and limitations of each adaptive algorithm.
+### 3️⃣ Linear & Nonlinear System Identification
+The project investigates adaptive filtering for both linear and nonlinear systems. Linear system identification is performed using NLMS, AP, DAP, O-DAP, and SO-DAP, while nonlinear system identification employs FLANN and AEFLN integrated with adaptive filtering algorithms. This comprehensive study demonstrates the evolution of adaptive filtering from simple linear models to advanced nonlinear neural network-based approaches.
 
-### 4️⃣ Computational Complexity Analysis
-The computational cost of NLMS, AP, DAP, O-DAP, and SO-DAP is analyzed using their theoretical complexity equations. The project demonstrates how DAP-based algorithms significantly reduce computational complexity while maintaining performance close to the conventional AP algorithm.
+### 4️⃣ MATLAB Implementation of Advanced Adaptive Algorithms
+All algorithms are developed and simulated in MATLAB following methodologies reported in recent IEEE research. The implementation includes learning curve analysis, convergence evaluation, computational complexity analysis, and nonlinear system modeling. Each algorithm is implemented under identical simulation conditions to ensure a fair and meaningful comparison.
 
-### 5️⃣ AEFLN-Based Nonlinear Modeling
-The Adaptive Exponential Functional Link Neural Network (AEFLN) is employed to enhance nonlinear system identification. Compared to FLANN, AEFLN uses adaptive exponential basis functions, resulting in improved nonlinear approximation, faster convergence, and lower steady-state error.
+### 5️⃣ Comprehensive Performance Analysis
+A detailed comparative analysis is carried out using multiple performance metrics, including Mean Square Error (MSE), Normalized Mean Square Deviation (NMSD), convergence rate, steady-state error, and computational complexity. The repository includes MATLAB-generated graphs that visually demonstrate the strengths, limitations, and practical trade-offs of each adaptive filtering algorithm.
 
 ***
 ## Evolution of Adaptive Filtering Algorithms
