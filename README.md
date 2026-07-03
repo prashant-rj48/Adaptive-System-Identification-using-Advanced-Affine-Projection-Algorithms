@@ -64,6 +64,17 @@ A detailed comparative analysis is carried out using multiple performance metric
          SO-DAP
 
 
+***
+## 📈 Algorithm Evolution Table
+| Algorithm  | Why Introduced?                                | Main Advantage                                                              | Main Drawback                                        |
+| ---------- | ---------------------------------------------- | --------------------------------------------------------------------------- | ---------------------------------------------------- |
+| **NLMS**   | Baseline adaptive filter                       | Simple implementation, low complexity                                       | Slow convergence for correlated inputs               |
+| **AP**     | Improve NLMS convergence                       | Uses multiple past input vectors, converges faster                          | Matrix inversion increases computational complexity  |
+| **DAP**    | Reduce AP complexity                           | Removes expensive matrix inversion while maintaining similar convergence    | Uses a fixed adaptation mechanism                    |
+| **O-DAP**  | Improve DAP performance                        | Optimal gain vector improves convergence and steady-state error             | Additional computations for optimal gain calculation |
+| **SO-DAP** | Simplify O-DAP                                 | Nearly same performance with reduced computational complexity               | Slight approximation compared to O-DAP               |
+| **FLANN**  | Extend adaptive filtering to nonlinear systems | Nonlinear modeling using trigonometric basis expansion                      | Fixed basis functions limit adaptability             |
+| **AEFLN**  | Improve FLANN                                  | Adaptive exponential basis functions provide better nonlinear approximation | Slightly higher computational complexity             |
 
 
 
