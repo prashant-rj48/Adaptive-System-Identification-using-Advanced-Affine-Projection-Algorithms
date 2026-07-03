@@ -205,9 +205,23 @@ Improved cancellation of nonlinear speaker distortion.
 
 ### Wireless Communication & Channel Equalization
 <img width="536" height="400" alt="image" src="https://github.com/user-attachments/assets/576e0680-a6b8-4cb2-9340-2aabd290f8e1" />
+Wireless communication channels are continuously affected by multipath fading, interference, and user mobility. Adaptive filters estimate the channel characteristics and update the equalizer coefficients to recover the transmitted signal accurately. AP offers rapid convergence under highly correlated channel conditions, while DAP, O-DAP, and SO-DAP reduce computational complexity for real-time implementations. AEFLN can additionally compensate for nonlinear effects introduced by RF power amplifiers and communication hardware.
 
+Key Contributions
 
+Adaptive channel estimation.                                                                                                                                       
+Real-time equalization for time-varying channels.                                                                                                                  
+Reduced computational complexity for mobile devices.                                                                                                               
+Compensation of nonlinear hardware impairments.
 
+***
+
+##📑 References
+
+AP/DAP/O-DAP/SO-DAP IEEE paper.                                                                                                                                    
+The FLANN paper.                                                                                                                                                   
+The AEFLN paper.                                                                                                                                                   
+MATLAB documentation (if used).
 
 
 
