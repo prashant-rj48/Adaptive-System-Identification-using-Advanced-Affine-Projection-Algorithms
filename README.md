@@ -164,6 +164,19 @@ DAP-AEFLN maintains AP-like convergence while reducing computational complexity.
 
 Adaptive exponential basis functions significantly improve nonlinear modeling accuracy and reduce the final Mean Square Error (MSE).
 
+***
+
+
+
+
+
+
+
+
+## Real-World Applications
+### Active Noise Cancellation (ANC)
+<img width="500" height="377" alt="image" src="https://github.com/user-attachments/assets/729fc66d-d5c9-42de-9f74-9cc6fa817d64" />           <img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/6a406e28-b4dd-467d-9051-1a78e8fd3c6d" />
+
 
 
 
