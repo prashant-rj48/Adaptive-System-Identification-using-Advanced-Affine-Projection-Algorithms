@@ -180,8 +180,9 @@ Adaptive exponential basis functions significantly improve nonlinear modeling ac
 Active Noise Cancellation systems eliminate unwanted environmental noise by generating an anti-noise signal with the same amplitude and opposite phase. Since surrounding noise changes continuously, adaptive filters are required to update their coefficients in real time. Algorithms such as AP and DAP provide faster adaptation than NLMS, while O-DAP and SO-DAP reduce computational complexity, making them suitable for battery-powered ANC devices. AEFLN further improves performance by compensating for nonlinear distortions introduced by loudspeakers and microphones.
 
 Key Contributions
-Real-time environmental noise suppression.***
-Faster adaptation to changing noise conditions.
+
+Real-time environmental noise suppression.                                                                                                                       
+Faster adaptation to changing noise conditions.                                                                                                                    
 Low-power implementation for portable devices.
 Improved nonlinear acoustic modeling using AEFLN
 
