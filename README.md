@@ -100,6 +100,8 @@ SO-DAP provides performance close to O-DAP with lower computational cost.
 
 ### 2. Computational Complexity Comparison
 This figure compares the theoretical computational complexity of each adaptive filtering algorithm as the filter length increases. Complexity is measured in terms of the approximate number of arithmetic operations required per iteration.
+<img width="500" height="377" alt="image" src="https://github.com/user-attachments/assets/fc7bea86-0e48-4c59-bf0c-07a76592c97a" />
+
 
 
 
