@@ -130,6 +130,11 @@ A moderate step size offers the best trade-off between convergence speed and est
 
 
 
+### 4. FLANN-Based Nonlinear System Identification
+This figure compares the performance of adaptive filtering algorithms for nonlinear system identification using a Trigonometric Functional Link Artificial Neural Network (FLANN). FLANN expands the input signal using trigonometric basis functions, enabling linear adaptive filters to model nonlinear systems.
+Uniformly distributed random signal:-     x(n)∼U(−0.5,0.5)
+
+<img width="500" height="377" alt="image" src="https://github.com/user-attachments/assets/72cb7a90-139b-4fbc-bc9e-c802354efca5" />
 
 
 
