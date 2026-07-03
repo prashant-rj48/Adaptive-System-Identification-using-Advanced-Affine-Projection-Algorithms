@@ -128,7 +128,7 @@ A large step size provides faster convergence but increases steady-state error a
 A moderate step size offers the best trade-off between convergence speed and estimation accuracy.
 
 
-
+| ---------------------------------------------- |
 
 ### 4. FLANN-Based Nonlinear System Identification
 This figure compares the performance of adaptive filtering algorithms for nonlinear system identification using a Trigonometric Functional Link Artificial Neural Network (FLANN). FLANN expands the input signal using trigonometric basis functions, enabling linear adaptive filters to model nonlinear systems.
